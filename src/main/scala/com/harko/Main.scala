@@ -42,7 +42,7 @@ object Main extends App  {
              |                                                                        """.stripMargin)
 
   implicit val system: ActorSystem = ActorSystem()
-  val membActRef = system.actorOf(MemberAccountant.props("42"))
+  val membActRef = system.actorOf(MemberAccountant.props("User-42"))
   membActRef ! AskMemberForPayment(10, "CAD")
 
 }
