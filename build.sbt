@@ -9,6 +9,12 @@ scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-encoding", "utf
 
 libraryDependencies += "com.typesafe.akka" % "akka-http-experimental_2.11" % "2.4.4"
 
+libraryDependencies += "com.typesafe.akka" % "akka-persistence_2.11" % "2.4.4"
+
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.2"
 
 libraryDependencies += "org.json4s" %% "json4s-jackson" % "3.3.0"
+
+resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
+
+libraryDependencies += "com.github.krasserm" %% "akka-persistence-cassandra-3x" % "0.6"
