@@ -17,4 +17,4 @@ libraryDependencies += "org.json4s" %% "json4s-jackson" % "3.3.0"
 
 resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
 
-libraryDependencies += "com.github.krasserm" %% "akka-persistence-cassandra-3x" % "0.6"
+libraryDependencies += "com.github.krasserm" %% "akka-persistence-cassandra" % "0.6"
