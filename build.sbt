@@ -1,4 +1,4 @@
-import scalariform.formatter.preferences._
+
 
 name          := "chatbot"
 organization  := "com.harko"
